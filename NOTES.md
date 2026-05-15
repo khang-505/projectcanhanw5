@@ -12,6 +12,7 @@ Implementation details:
 - Added `serverless-http` to `package.json` dependencies.
 - Created `lambda.js` exporting `handler`.
 - Updated `template.yaml` handler to `lambda.handler`.
+<img width="1879" height="701" alt="image" src="https://github.com/user-attachments/assets/79357e42-153e-4ebd-98ad-29c5b22880fc" />
 
 # step 4
 - $API = aws cloudformation describe-stacks --stack-name khangsam --region us-west-2 --query "Stacks[0].Outputs[?OutputKey=='ApiUrl'].OutputValue" --output text
