@@ -19,3 +19,6 @@ Implementation details:
 - curl.exe $API
 - curl.exe "$API/api/hello/Lan"
 - Invoke-RestMethod -Uri "$API/api/echo" -Method POST -ContentType "application/json" -Body '{"hi":"there"}'
+# step 5
+Cold start:
+-REPORT RequestId: 58f6a705-f086-4cba-87df-94cc1c75eccf       Duration: 47.64 ms      Billed Duration: 48 ms  Memory Size: 512 MB        Max Memory Used: 95 MB
